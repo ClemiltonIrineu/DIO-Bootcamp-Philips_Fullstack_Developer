@@ -1,0 +1,10 @@
+Conta no GitHub ja ativa e em execução na maquina, não necessitando de inicialização do git.
+Logo, o executado nesse projeto foi:
+1- Criação de repositorio no GitHub;
+2- Clonagem do repositorio para a maquina local, utilizando-se o protocolo SSH;
+3- Organização dos diretorios no repositorio;
+4- Confecção do arquivo txt para o 1° desafio de projeto;
+5- Foi utilizado os seguintes comandos para enviar as alterações do repositorio local para o GitHub.
+  git add . 
+  git commit -m ""
+  git push origin main
