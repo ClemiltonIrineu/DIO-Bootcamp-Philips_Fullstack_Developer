@@ -1,136 +1,19 @@
-.menu-animado{
-      
-    position:fixed;
-    width:60px;
-    height:60px;
-    z-index:9;
-    bottom:103px;
-    right:103px;
-
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
 }
 
-.flutua{
-
-    position:relative;
-    display:inline-block;
-    width:60px;
-    height:60px;
-    line-height:60px;
-    background-color:#39cece;
-    color:#FFF;
-    cursor:pointer;
-    border-radius:50px;
-    text-align:center;
-    z-index:1000;
-    animation: bot-to-top 2s ease-out;
+.btn-icon {
+	padding: 8px;
+	background: #ffffff;
+  
 }
 
-.btn-ativo { background-color:#4c4c4c!important; transition:0.8s; }
-
-.menu-animado .flutua{
-
-    background-color: #29d5d9;
-    box-shadow: 0px 0px 8px 2px rgb(232, 232, 232);
-
-}
-
-.social a{
-
-    color:#FFF;
-    border-radius:50%;
-    text-align:center;
-    width:50px;
-    height:50px;
-    line-height:53px;
-    padding:0px;
-    font-size:20px;
-    display:inline-block;
-    position:absolute;
-    top:5px;
-    left:6px;
-    transition:all .5s;
-}
-
-.social a:hover{
-
-  box-shadow: 2px 2px 3px #999;
-}
-
-a.facebook {
-
-  background-color:#4E71A8;
-  animation-delay:.5s;
-}
-
-a.instagram {
-
-  animation-delay:.7s;
-  background-color:#E3411F;
-}
-
-a.twitter {
-
-  animation-delay:.15s;
-  background-color:#1CB7EB;
-}
-
-.box .facebook {
-
-  left:80px;
-}
-
-.box .instagram {
-
-  left:140px;
-}
-
-.box .twitter{
-
-  left:200px;
-}
-
-.menu-animado .flutua {
-
-  font-size:24px;
-}
-
-
-.menu-animado .redondo{
-
-  width: 90px;
-  height: 124px;
-  background-color: transparent;
-  border-bottom-left-radius: 90px;
-  border-top-left-radius: 90px;
-  position:absolute;
-  top:-30px;
-  left:-50px;
-
-}
-
-.menu-animado .redondo a.facebook {
-
-  top:-20px;
-  left:20px;
-
-}
-
-.menu-animado .redondo a.instagram{
-
-  top:35px;
-  left:-10px;
-}
-
-.menu-animado .redondo a.twitter{
-
-  top:90px;
-  left:20px;
-
-}
-
-.menu-animado .box a.facebook,.menu-animado .box a.instagram,.menu-animado .box a.twitter{
-
-  top:35px;
-  left:55px;
-
+.txt {
+	
+		font-size: 30px;
+		font-weight: 300;
+		margin-bottom: 100px;
+		color: rgb(1, 14, 14);
+		
 }
