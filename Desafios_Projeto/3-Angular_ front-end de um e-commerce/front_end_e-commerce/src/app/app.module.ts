@@ -14,6 +14,9 @@ import { ProductItemComponent } from './components/bookstore-app/product-list/pr
 import { ProductListComponentService } from './components/bookstore-app/product-list/product-list-component.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SobreComponent } from './components/shared/sobre/sobre.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SuporteComponent } from './components/shared/suporte/suporte.component';
+import { HomeComponent } from './components/shared/home/home.component';
 
 @NgModule({
   declarations: [
@@ -25,13 +28,16 @@ import { SobreComponent } from './components/shared/sobre/sobre.component';
     FilterComponent,
     ProductListComponent,
     ProductItemComponent,
-    SobreComponent
+    SobreComponent,
+    SuporteComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [ProductListComponentService],
   bootstrap: [AppComponent]
